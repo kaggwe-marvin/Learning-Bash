@@ -1,9 +1,8 @@
-Functions in Bash:
-Functions are blocks of reusable code. They help keep your scripts clean and maintainable.
+# Functions in Bash
 
-bash
-Copy code
-#!/bin/bash
+-Functions are blocks of reusable code. They help keep your scripts clean and maintainable.
+
+-#!/bin/bash
 function greet() {
 echo "Hello, $1!"
 }
@@ -11,16 +10,16 @@ echo "Hello, $1!"
 greet "Marvin"
 function greet() {...}: Declare a function named greet.
 $1: Refers to the first argument passed to the function.
-Exercise:
-Create a new script file, like greetings.sh.
+
+## Exercise
+
+-Create a new script file, like greetings.sh.
 Add the shebang (#!/bin/bash).
 Declare a function that takes a name as an argument and prints a greeting.
 Call the function with different names.
-Example:
+-Example:
 
-bash
-Copy code
-#!/bin/bash
+-#!/bin/bash
 function greet() {
 echo "Hello, $1!"
 }

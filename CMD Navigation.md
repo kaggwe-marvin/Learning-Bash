@@ -1,18 +1,23 @@
-#Command Line Navigation:
-cd - Change Directory:
+# Command Line Navigation
 
-cd directory_name - Move into a specific directory.
-cd .. - Move up one level.
-ls - List Files:
+## Change Directory (cd)
 
-ls - List files in the current directory.
-ls -l - Detailed list with permissions, owner, size, and modification time.
-mkdir - Make Directory:
+- `cd directory_name` - Move into a specific directory.
+- `cd ..` - Move up one level.
 
-mkdir new_directory - Create a new directory.
-cp - Copy Files:
+## List Files (ls)
 
-cp file_to_copy destination - Copy a file to a specified location.
+- `ls` - List files in the current directory.
+- `ls -l` - Detailed list with permissions, owner, size, and modification time.
 
-touch - create files
-create files using the 'touch' command
+## Make Directory (mkdir)
+
+- `mkdir new_directory` - Create a new directory.
+
+## Copy Files (cp)
+
+- `cp file_to_copy destination` - Copy a file to a specified location.
+
+## Create Files (touch)
+
+- Create files using the `touch` command. For example, `touch filename.md` creates an empty file.

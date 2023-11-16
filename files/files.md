@@ -1,9 +1,8 @@
-File Operations in Bash:
-Bash provides commands for creating, reading, and manipulating files.
+# File Operations in Bash
 
-bash
-Copy code
-#!/bin/bash
+-Bash provides commands for creating, reading, and manipulating files.
+
+-#!/bin/bash
 echo Creating a new file...
 touch newfile.txt
 echo Writing to the file...
@@ -12,17 +11,17 @@ cat newfile.txt
 touch: Create an empty file.
 echo Hello, world! >> newfile.txt: Append text to a file.
 cat newfile.txt: Display the contents of a file.
-Exercise:
-Create a new script file, perhaps file_operations.sh.
+
+## Exercise
+
+-Create a new script file, perhaps file_operations.sh.
 Add the shebang (#!/bin/bash).
 Use touch to create a new file named my_notes.txt.
 Use echo to add some text to the file.
 Use cat to display the contents of the file.
 Example:
 
-bash
-Copy code
-#!/bin/bash
+-#!/bin/bash
 echo Creating a new file...
 touch my_notes.txt
 echo Writing to the file...
@@ -33,9 +32,7 @@ Run the script with ./file_operations.sh.
 File Operations in Bash:
 Bash provides commands for creating, reading, and manipulating files.
 
-bash
-Copy code
-#!/bin/bash
+-#!/bin/bash
 echo Creating a new file...
 touch newfile.txt
 echo Writing to the file...
@@ -44,17 +41,17 @@ cat newfile.txt
 touch: Create an empty file.
 echo Hello, world! >> newfile.txt: Append text to a file.
 cat newfile.txt: Display the contents of a file.
-Exercise:
-Create a new script file, perhaps file_operations.sh.
+
+## Exercise 2
+
+-Create a new script file, perhaps file_operations.sh.
 Add the shebang (#!/bin/bash).
 Use touch to create a new file named my_notes.txt.
 Use echo to add some text to the file.
 Use cat to display the contents of the file.
 Example:
 
-bash
-Copy code
-#!/bin/bash
+-#!/bin/bash
 echo Creating a new file...
 touch my_notes.txt
 echo Writing to the file...

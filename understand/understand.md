@@ -1,40 +1,35 @@
-What is Bash?
-Bash (Bourne Again SHell) is a command processor that typically runs in a text window where you type commands into a terminal. It's not just for running commands, though; it can also execute scripts – sequences of commands that you've saved in a file.
+# What is Bash?
 
-Scripts and Commands:
-Commands: Single-line instructions you type in the terminal.
+-Bash (Bourne Again SHell) is a command processor that typically runs in a text window where you type commands into a terminal. It's not just for running commands, though; it can also execute scripts – sequences of commands that you've saved in a file.
 
-bash
-Copy code
-echo "Hello, Marvin!"
+## Scripts and Commands
+
+-Commands: Single-line instructions you type in the terminal.
+
+-echo "Hello, Marvin!"
 Scripts: Multiple commands saved in a file for execution.
 
-bash
-Copy code
-#!/bin/bash
+-#!/bin/bash
 echo "Hello, Marvin!"
-Shebang (#!):
-The #!/bin/bash at the beginning of the script is called a shebang. It tells the system which interpreter to use to run the script. In this case, it's Bash.
 
-Executing Scripts:
-Make the Script Executable:
+### Shebang (#!)
 
-bash
-Copy code
+-The #!/bin/bash at the beginning of the script is called a shebang. It tells the system which interpreter to use to run the script. In this case, it's Bash.
+
+#### Executing Scripts
+
+-Make the Script Executable:
 chmod +x script_name.sh
-Run the Script:
 
-bash
-Copy code
+-Run the Script:
 ./script_name.sh
-Comments:
+
+-Comments:
 In Bash, anything following a # is a comment and won't be executed.
 
-bash
-Copy code
-#!/bin/bash
+-#!/bin/bash
 
-# This is a comment
+-# This is a comment
 
 echo "Hello, Marvin!"
 Output:
@@ -45,19 +40,19 @@ echo "Hello, Marvin!"
 Variables:
 Store data for later use.
 Always use $ before the variable name.
-bash
-Copy code
-#!/bin/bash
+
+-#!/bin/bash
 greeting="Hello"
 name="Marvin"
 echo "$greeting, $name!"
-Exercise:
-Create a new file named welcome.sh.
+
+## Exercise
+
+-Create a new file named welcome.sh.
 Add the shebang (#!/bin/bash).
 Write a script that asks for your name, stores it in a variable, and prints a personalized greeting.
-bash
-Copy code
-#!/bin/bash
+
+-#!/bin/bash
 echo "What's your name?"
 read userName
 echo "Nice to meet you, $userName!"

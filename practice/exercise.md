@@ -1,5 +1,6 @@
-Hands-On Exercise:
-Open your terminal.
+# Hands-On Exercise
+
+-Open your terminal.
 Use cd to navigate to your home directory (cd ~).
 Create a new directory with mkdir practice.
 Move into this directory with cd practice.

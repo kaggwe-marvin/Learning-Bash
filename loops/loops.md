@@ -1,9 +1,8 @@
-Loops in Bash:
-Loops are your script's way of doing things repeatedly. The for loop is your pal.
+# Loops in Bash
 
-bash
-Copy code
-#!/bin/bash
+-Loops are your script's way of doing things repeatedly. The for loop is your pal.
+
+-#!/bin/bash
 fruits=("Apple" "Banana" "Orange")
 
 for fruit in "${fruits[@]}"; do
@@ -11,16 +10,17 @@ for fruit in "${fruits[@]}"; do
 done
 fruits: An array holding different fruits.
 for fruit in "${fruits[@]}": Loop through each item in the array.
-Exercise:
-Create a new script file, maybe favorite_fruits.sh.
+
+## Exercise
+
+-Create a new script file, maybe favorite_fruits.sh.
 Add the shebang (#!/bin/bash).
 Declare an array of your favorite fruits.
 Use a for loop to print each fruit.
-Example:
 
-bash
-Copy code
-#!/bin/bash
+### Example
+
+-#!/bin/bash
 favoriteFruits=("Mango" "Strawberry" "Pineapple")
 
 for fruit in "${favoriteFruits[@]}"; do
